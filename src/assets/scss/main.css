@@ -319,6 +319,10 @@
   background-size: cover;
 }
 
+.about .linkToContacts {
+  color: #1a53ff;
+}
+
 .about h2 {
   font-size: 1.5rem;
   font-weight: 500;

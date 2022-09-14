@@ -10,6 +10,9 @@
     background-image: url("../../assets/images/this_app/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    .linkToContacts{
+      color:$secondary-color;
+    }
   
     h2 {
       font-size: 1.5rem;

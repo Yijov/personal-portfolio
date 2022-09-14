@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { IoMdCode } from "react-icons/io";
 import {SmallHorizontalLine} from "../../components";
 import AuthorPicture from "../../assets/images/this_app/me.jpg"
@@ -44,7 +45,7 @@ import { motion } from "framer-motion";
           <h2>Hello there!</h2>
           <h2>My name is Yirbett Joseph.</h2>
           <p>Im a full Stack software developer graduated from ITLA</p>
-          <button>Contact Me</button>
+          <button> <Link className="linkToContacts" to={"/contact"}>CONTACT ME</Link></button>
         </div>
       
         </div>

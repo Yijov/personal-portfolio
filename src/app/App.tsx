@@ -18,6 +18,7 @@ function App() {
       <Route path='Knowledge' element={<Knowledge hasHeading={true}/>} />
       <Route path='Contact' element={<Contact hasHeading={true}/>} />
       <Route path='About' element={<About hasHeading={true} />} />
+      <Route path='personal-portfolio' element={<Home  />} />
       <Route path='*' element={<NotFound  />} />
     </Routes>
     <Footer/>
