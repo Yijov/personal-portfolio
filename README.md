@@ -1,34 +1,17 @@
 # My Personal Portfolio App
+   
+<img src="src\assets\images\this_app\home.png"  alt="home page" title="home page" width="800" /> 
+<img src="src\assets\images\this_app\projects.png" alt="projects page" title="projects page" width="800" />
+<img src="src\assets\images\this_app\contact.jpg" alt="contacts page" title="contact page" width="800" /> 
 
-
+    
 <div display="flex" margin-bottom="15rem">
-    <img 
-    src="src\assets\images\this_app\home.png" 
-    alt="home page" 
-    title="home page" 
-    width="250" /> 
-    <img 
-    src="src\assets\images\this_app\projects.png" 
-    alt="projects page" 
-    title="projects page" 
-    width="250" /> 
-     <img 
-    src="src\assets\images\this_app\contact.jpg" 
-    alt="contacts page" 
-    title="contact page" 
-    width="250" /> 
     <img 
     src="src\assets\images\this_app\movileview.png" 
     alt="mobile view" 
     title="mobile view" 
-    width="250" /> 
-    <img 
-    src="src\assets\images\this_app\menu.jpg" 
-    alt="menu page" 
-    title="mobile menu page" 
-    width="250" /> 
-  
-    
+    width="400" />  
+    <img src="src\assets\images\this_app\menu.jpg" alt="menu page" title="mobile menu page" width="360" />
   </div>
 
 # Getting Started with Create React App
