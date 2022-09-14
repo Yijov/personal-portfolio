@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+    background: whitesmoke;
+  }
+
+  @import "./about/about";
+  @import "./contact/contact";
+  @import "./not_found/not_found";
+  @import "./home/home";
+  @import "./knowledge/knowledge";
+  @import "./projects/projects";

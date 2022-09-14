@@ -1,0 +1,109 @@
+.about {
+    background-color:$secondary-color ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    background-image: url("../../assets/images/this_app/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
+    .author-picture{
+      width: 290px;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      
+    }
+    .info-cube-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: $secondary-color;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      width: 345px;
+      .info-cube{
+        height: 150px;
+        width: 150px;
+        margin: 0.5rem;
+        padding: 0.2rem;
+        padding-top: 1rem;
+        background-color: white;
+        text-align: center;
+        color: $primary-color;
+        &_picture{
+          width: 100px;
+        }
+      }
+
+    }
+
+    .info-card{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $secondary-color;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      width: 345px;
+      font-weight: 500;
+      h2{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+      }
+
+    }
+
+    button {
+      width: 10rem;
+      height: 2rem;
+      cursor: pointer;
+      background-color:white;
+      border: none;
+      color: $terd-color;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 1px 3px 16px lightgray;
+      margin: 2rem;
+    }
+    
+  }
+
+
+  
+
+   //responsiveness
+
+ @include media-md {
+  .about-content-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-left: 15%;
+    padding: 2rem;
+    .info-card{
+      width: 250px;
+    }
+
+  }  
+  .author-picture{
+    margin-right: 1rem;
+  } 
+
+
+  
+}
+
+
+
