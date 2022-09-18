@@ -13,15 +13,16 @@
   font-size: 1.2rem;
   background-color: #4d94ff;
   color: white;
-  width: 100%;
+  width: 91%;
   padding: 0.5rem;
   padding-left: 2rem;
+  display: block;
 }
 
 .menu-btn {
   position: absolute;
   z-index: 7;
-  right: 55px;
+  right: 45px;
   top: 0.5rem;
   height: 20px;
   width: 28px;
@@ -86,7 +87,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   opacity: 0.98;
   visibility: hidden;
   z-index: 6;
@@ -332,6 +333,7 @@
   width: 290px;
   border-radius: 6px;
   margin-bottom: 0.5rem;
+  max-height: 400px;
 }
 
 .about .info-cube-container {
@@ -347,6 +349,7 @@
   margin-bottom: 0.5rem;
   padding: 0.5rem;
   width: 345px;
+  max-height: 400px;
 }
 
 .about .info-cube-container .info-cube {
@@ -408,6 +411,27 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 2%;
+    padding: 2rem;
+  }
+  .about-content-container .info-card {
+    width: 225px;
+  }
+  .author-picture {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1010px) {
   .about-content-container {
     display: -webkit-box;
     display: -ms-flexbox;

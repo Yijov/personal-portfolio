@@ -23,6 +23,7 @@
       width: 290px;
       border-radius: 6px;
       margin-bottom: 0.5rem;
+      max-height: 400px;
       
     }
     .info-cube-container{
@@ -33,6 +34,7 @@
       margin-bottom: 0.5rem;
       padding: 0.5rem;
       width: 345px;
+      max-height: 400px;
       .info-cube{
         height: 150px;
         width: 150px;
@@ -89,6 +91,27 @@
    //responsiveness
 
  @include media-md {
+  .about-content-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-left: 2%;
+    padding: 2rem;
+    .info-card{
+      width: 225px;
+    }
+
+  }  
+  .author-picture{
+    margin-right: 1rem;
+  } 
+
+
+  
+}
+
+
+@include media-lg {
   .about-content-container{
     display: flex;
     width: 100%;

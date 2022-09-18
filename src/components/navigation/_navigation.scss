@@ -3,14 +3,15 @@
   font-size: 1.2rem;
   background-color:  $primary-color;
   color: white;
-  width: 100%;
+  width: 91%;
   padding: 0.5rem;
   padding-left: 2rem;
+  display: block;
 }
 .menu-btn {
   position: absolute;
   z-index: 7;
-  right: 55px;
+  right: 45px;
   top: 0.5rem;
   height: 20px;
   width: 28px;
@@ -68,7 +69,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   opacity: 0.98;
   visibility: hidden;
   z-index: 6;
