@@ -47,7 +47,7 @@ import { Link } from "react-router-dom";
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/yirbett-joseph-a44161144"
+        href="www.linkedin.com/in/yirbett"
         target="_blank"
         rel="noreferrer"
       >
